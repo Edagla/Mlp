@@ -1,17 +1,13 @@
 # Mlp
-Tabii ki, metni Türkçe'ye çevirebilirim. İşte çeviri:
-
 # YZM304 Derin Öğrenme Projesi 1: Çok Katmanlı Perceptron Uygulaması
 
 ## Proje Özeti
 Bu proje, BankNote Authentication veri seti için Çok Katmanlı Perceptron (MLP) sinir ağlarını iki farklı şekilde uygular:
 1. **Derin Öğrenme Kütüphaneleri Kullanmadan** - NumPy uygulaması
-2. **Keras Kullanarak** - Keras derin öğrenme çerçevesini kullanan uygulama
+2. **Keras Kullanarak** - Keras'ı 2-layer için kullanan uygulama
 
 Proje, ikili sınıflandırma için 2-Katmanlı ve 3-Katmanlı sinir ağı mimarilerinin performansını karşılaştırır.
 
-## Veri Seti
-Proje, gerçek ve sahte banknotların resimlerinden çıkarılan özelliklere sahip BankNote Authentication veri setini kullanır. Veri seti 4 girdi özelliğine ve ikili bir çıktı (0 gerçek için, 1 sahte için) sahiptir.
 
 ## Uygulama Ayrıntıları
 
@@ -53,7 +49,7 @@ Proje, gerçek ve sahte banknotların resimlerinden çıkarılan özelliklere sa
   - Geri Çağırma: 0.7951
   - F1 Skoru: 0.7376
 
-### Keras Uygulaması
+### Keras Uygulaması (2-layer için)
 - Doğruluk: 0.8218
 - Kayıp: 0.5186
 
